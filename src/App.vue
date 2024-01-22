@@ -96,7 +96,7 @@
             </button>
         </div>
         <div class="card-image bg-green-100">
-            <img class="w-full h-72 md:h-96" src="./assets/EcommerceProject.PNG" alt="E-commerce Shop Preview" />
+            <img class="w-full h-72 md:h-96" src="./assets/Ecommerceproject.png" />
         </div>
     </div>
 </div>
