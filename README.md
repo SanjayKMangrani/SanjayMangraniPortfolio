@@ -1,19 +1,6 @@
 <h1 align="center">Welcome to Designer-portfolio 👋</h1>
 
 <h5 align="center">Spacial Credit goes to : <a target="_blank" href="https://www.figma.com/@salmanwap">@salmanwap</h5>
-
-<hr/>
-
-## A Simple Portfolio Template built with VueJS (Vite) + TailwindCss
-
-<p align="center">
-  <kbd>
-    <img src="sample.png"></img>
-  </kbd>
-</p>
-
-### **[click here to see Demo](https://desinger-portfolio.netlify.app/)**.
-
 ## Sections
 
 ✔️ Home Page Banner
