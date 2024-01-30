@@ -142,7 +142,7 @@
             <br />
             During my professional journey, I've spearheaded coding, design, and implementation of in-house web application, collaborated with cross-functional teams, and contributed to various projects, including the development of the MY Desk KL App and the APTC Trade Portal.
         </p>
-        <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/resume.pdf" download="Sanjay_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/Resume.pdf" download="Sanjay_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
                 Download Resume
             </button>
