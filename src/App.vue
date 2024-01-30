@@ -58,6 +58,34 @@
     <h3 class="heading3 my-5">My Recent Work</h3>
     <div class="card">
         <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+            <h4 class="project-title item">Vue Task Tracker</h4>
+            <p class="font-work_sans pr-12 text-justify">
+                Developed a Task Management System with a Vue.js frontend and ASP.NET Core backend. The system allows users to manage tasks, view details, and perform CRUD operations. Implemented features include task listing, details, due dates, and status updates.
+                <br /><br /><strong>Working On:</strong>
+                <ul class="list-disc pl-6">
+                    <li>Integration with Azure for secure and scalable hosting.</li>
+                    <li>Enhanced RESTful API capabilities for seamless data interaction.</li>
+                    <li>User authentication and authorization for secure task management.</li>
+                    <!-- Add any other upcoming features related to your project -->
+                </ul>
+                <br /><strong>Technologies Used:</strong>
+                <ul class="list-disc pl-6">
+                    <li>Vue.js for the frontend.</li>
+                    <li>ASP.NET Core for backend development.</li>
+                    <li>Integration of CRUD operations for task management.</li>
+                    <li>Database integration for storing task information.</li>
+                </ul>
+            </p>
+            <a href="https://github.com/SanjayKMangrani/VueTaskTracker/blob/main/README.md" target="_blank"> <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
+                    View GitHub Code
+                </button></a>
+        </div>
+        <div class="card-image bg-green-100">
+            <img class="w-full h-72 md:h-96" src="./assets/TaskProject.png" alt="Project Image">
+        </div>
+    </div>
+    <div class="card">
+        <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
             <h4 class="project-title item">Restaurant Management System</h4>
             <p class="font-work_sans pr-12 text-justify">
                 Developed a simple Vue.js project for managing restaurant details, including the ability to add,
@@ -75,28 +103,6 @@
         </div>
         <div class="card-image bg-green-100">
             <img class="w-full h-72 md:h-96" src="./assets/VueProject.png" />
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-            <h4 class="project-title item">E-commerce Shop</h4>
-            <p class="font-work_sans pr-12 text-justify">
-                Created an E-commerce platform using ASP.NET Core for the backend and integrated common client-side technologies for a seamless shopping experience. Implemented features include item details, pricing, images, and a secure shopping cart.
-                <br /><br /><strong>Technologies Used:</strong>
-                <ul class="list-disc pl-6">
-                    <li>ASP.NET Core for backend development.</li>
-                    <li>HTML, CSS, and JavaScript for the frontend.</li>
-                    <li>Integration of user authentication for secure transactions.</li>
-                    <li>Database integration for storing item details.</li>
-                </ul>
-            </p>
-            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                View GitHub Code
-            </button>
-        </div>
-        <div class="card-image bg-green-100">
-            <img class="w-full h-72 md:h-96" src="./assets/Ecommerceproject.png" />
         </div>
     </div>
 </div>
@@ -136,10 +142,11 @@
             <br />
             During my professional journey, I've spearheaded coding, design, and implementation of in-house web application, collaborated with cross-functional teams, and contributed to various projects, including the development of the MY Desk KL App and the APTC Trade Portal.
         </p>
-        <a href="./assets/resume.pdf" download="Sanjay_Kumar_Resume.pdf">
+        <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/resume.pdf" download="Sanjay_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
                 Download Resume
-            </button></a>
+            </button>
+        </a>
     </div>
 </div>
 
