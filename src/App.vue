@@ -73,7 +73,7 @@
                     View GitHub Code
                 </button></a>
         </div>
-        <a href="./assets/BookShoppingCartMvc.png" target="_blank" class="card-image bg-green-100 block" onclick="return !window.open(this.href, 'Image', 'width=800,height=600')">
+        <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/BookShoppingCartMvc.png" target="_blank" class="card-image bg-green-100 block" onclick="return !window.open(this.href, 'Image', 'width=800,height=600')">
         <img class="w-full h-72 md:h-96 object-cover" src="./assets/BookShoppingCartMvc.png" />
     </a>
     </div>
