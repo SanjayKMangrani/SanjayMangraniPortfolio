@@ -58,6 +58,27 @@
     <h3 class="heading3 my-5">My Recent Work</h3>
     <div class="card">
         <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+            <h4 class="project-title item">Book Shopping Cart MVC</h4>
+            <p class="font-work_sans pr-12 text-justify">
+                Developed a basic e-commerce system using ASP.NET Core MVC. The system includes features like search filter functionalities, add to cart, payment processing, user roles, and user authentication. Utilized MS SQL as the database with Entity Framework Core for ORM. The frontend is designed using Bootstrap.
+                <br /><br /><strong>Technologies Used:</strong>
+                <ul class="list-disc pl-6">
+                    <li>ASP.NET Core MVC for the backend.</li>
+                    <li>MS SQL for the database.</li>
+                    <li>Entity Framework Core for ORM.</li>
+                    <li>Bootstrap for the frontend.</li>
+                </ul>
+            </p>
+            <a href="https://github.com/SanjayKMangrani/BookShoppingCartMvc.git" target="_blank"> <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
+                    View GitHub Code
+                </button></a>
+        </div>
+        <a href="./assets/BookShoppingCartMvc.png" target="_blank" class="card-image bg-green-100 block" onclick="return !window.open(this.href, 'Image', 'width=800,height=600')">
+        <img class="w-full h-72 md:h-96 object-cover" src="./assets/BookShoppingCartMvc.png" />
+    </a>
+    </div>
+    <div class="card">
+        <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
             <h4 class="project-title item">Vue Task Tracker</h4>
             <p class="font-work_sans pr-12 text-justify">
                 Developed a Task Management System with a Vue.js frontend and ASP.NET Core backend. The system allows users to manage tasks, view details, and perform CRUD operations. Implemented features include task listing, details, due dates, and status updates.
@@ -66,7 +87,6 @@
                     <li>Integration with Azure for secure and scalable hosting.</li>
                     <li>Enhanced RESTful API capabilities for seamless data interaction.</li>
                     <li>User authentication and authorization for secure task management.</li>
-                    <!-- Add any other upcoming features related to your project -->
                 </ul>
                 <br /><strong>Technologies Used:</strong>
                 <ul class="list-disc pl-6">
