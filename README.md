@@ -28,10 +28,3 @@ $ npm install
 
 #Start's development server
 $ npm run dev
-```
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-Credit goes to : [Adam Wathan](https://codepen.io/adamwathan/pen/QWLEJGr) for portfolio section
