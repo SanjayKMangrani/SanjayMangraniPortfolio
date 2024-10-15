@@ -30,10 +30,6 @@ $ npm install
 $ npm run dev
 ```
 
-## License
-
-No Restrictions, you can edit, add & sell.
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
