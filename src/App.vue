@@ -56,6 +56,32 @@
 
 <div class="banner-2 space-y-10 pb-20" id="work">
     <h3 class="heading3 my-5">My Recent Work</h3>
+
+    <div class="card">
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+        <h4 class="project-title item">Biological Gene Expression Data Visualization</h4>
+        <p class="font-work_sans pr-12 text-justify">
+            Developed a tool for visualizing gene expression data using Python. The project analyzes large-scale gene expression datasets and produces visual representations such as heatmaps, PCA plots, and clustering graphs to reveal patterns in the data. These visualizations help researchers interpret biological significance in gene expression experiments.
+            <br /><br /><strong>Technologies Used:</strong>
+            <ul class="list-disc pl-6">
+                <li>Python for backend data processing.</li>
+                <li>Pandas and NumPy for data manipulation.</li>
+                <li>Seaborn and Matplotlib for creating visualizations.</li>
+                <li>Scikit-learn for performing PCA and clustering.</li>
+            </ul>
+        </p>
+        <a href="https://github.com/SanjayKMangrani/BGEDV.git" target="_blank">
+            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
+                View GitHub Code
+            </button>
+        </a>
+    </div>
+    <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/PyProject.PNG      " target="_blank" class="card-image bg-green-100 block" onclick="return !window.open(this.href, 'Image', 'width=800,height=600')">
+        <img class="w-full h-72 md:h-96 object-cover" src="./assets/PyProject.PNG" />
+    </a>
+</div>
+
+
     <div class="card">
         <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
             <h4 class="project-title item">Book Shopping Cart MVC</h4>
