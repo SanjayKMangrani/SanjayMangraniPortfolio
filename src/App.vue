@@ -76,8 +76,8 @@
             </button>
         </a>
     </div>
-    <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/PyProject.PNG      " target="_blank" class="card-image bg-green-100 block" onclick="return !window.open(this.href, 'Image', 'width=800,height=600')">
-        <img class="w-full h-72 md:h-96 object-cover" src="./assets/PyProject.PNG" />
+    <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/PyProject.png      " target="_blank" class="card-image bg-green-100 block" onclick="return !window.open(this.href, 'Image', 'width=800,height=600')">
+        <img class="w-full h-72 md:h-96 object-cover" src="./assets/PyProject.png" />
     </a>
 </div>
 
