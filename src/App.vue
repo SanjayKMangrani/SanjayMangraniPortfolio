@@ -59,6 +59,38 @@
 
     <div class="card">
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+      <h4 class="project-title item">Power BI Sales Management Dashboard</h4>
+      <p class="font-work_sans pr-12 text-justify">
+        Built an interactive Power BI dashboard using data from an MS SQL Server database to provide key insights into sales performance, customer behavior, and product details.
+        <ul class="list-disc pl-6">
+          <li><strong>Sales Overview:</strong> Tracked total sales, sales trends, and performance across various periods.</li>
+          <li><strong>Customer Details:</strong> Presented customer demographics and geographic distribution for targeted analysis.</li>
+          <li><strong>Product Details:</strong> Highlighted sales by product categories and top-performing products.</li>
+        </ul>
+        <br /><strong>Technologies Used:</strong>
+        <ul class="list-disc pl-6">
+          <li>Power BI for data visualization.</li>
+          <li>MS SQL Server for the database.</li>
+          <li>SQL for data transformation.</li>
+          <li>Power Query for data preparation.</li>
+        </ul>
+      </p>
+    </div>
+    <div class="card-images-container flex flex-col space-y-4 bg-green-100 p-4">
+      <a href="./assets/sales-overview.png" target="_blank" class="block w-full">
+        <img class="w-full h-auto object-cover" src="./assets/sales-overview.png" alt="Sales Overview Dashboard" />
+      </a>
+      <a href="./assets/customer-details.png" target="_blank" class="block w-full">
+        <img class="w-full h-auto object-cover" src="./assets/customer-details.png" alt="Customer Details Dashboard" />
+      </a>
+      <a href="./assets/product-details.png" target="_blank" class="block w-full">
+        <img class="w-full h-auto object-cover" src="./assets/product-details.png" alt="Product Details Dashboard" />
+      </a>
+    </div>
+  </div>
+
+    <div class="card">
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Biological Gene Expression Data Visualization</h4>
         <p class="font-work_sans pr-12 text-justify">
             Developed a tool for visualizing gene expression data using Python. The project analyzes large-scale gene expression datasets and produces visual representations such as heatmaps, PCA plots, and clustering graphs to reveal patterns in the data. These visualizations help researchers interpret biological significance in gene expression experiments.
@@ -250,3 +282,23 @@ export default {
     },
 }
 </script>
+<style scoped>
+.card-images-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-images-container img {
+  width: 100%; /* Makes the image take the full width of its container */
+  height: auto; /* Maintains the aspect ratio of the image */
+  object-fit: cover;
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+.card-images-container a {
+  display: block;
+  width: 100%; /* Ensures the anchor takes the full width of its container */
+  overflow: hidden; /* Ensures images stay within the container */
+}
+</style>
