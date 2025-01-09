@@ -70,7 +70,7 @@
                 <li>Postman for API testing and documentation.</li>
             </ul>
         </p>
-        <a href="https://github.com/SanjayKMangrani/MedEase.git" target="_blank">
+        <a href="https://github.com/SanjayKMangrani/MedEase_API" target="_blank">
             <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
                 View GitHub Code
             </button>
