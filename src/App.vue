@@ -57,37 +57,37 @@
 <div class="banner-2 space-y-10 pb-20" id="work">
     <h3 class="heading3 my-5">My Recent Work</h3>
 
-    <div class="card">
-    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-      <h4 class="project-title item">Power BI Sales Management Dashboard</h4>
-      <p class="font-work_sans pr-12 text-justify">
-        Built an interactive Power BI dashboard using data from an MS SQL Server database to provide key insights into sales performance, customer behavior, and product details.
-        <ul class="list-disc pl-6">
-          <li><strong>Sales Overview:</strong> Tracked total sales, sales trends, and performance across various periods.</li>
-          <li><strong>Customer Details:</strong> Presented customer demographics and geographic distribution for targeted analysis.</li>
-          <li><strong>Product Details:</strong> Highlighted sales by product categories and top-performing products.</li>
-        </ul>
-        <br /><strong>Technologies Used:</strong>
-        <ul class="list-disc pl-6">
-          <li>Power BI for data visualization.</li>
-          <li>MS SQL Server for the database.</li>
-          <li>SQL for data transformation.</li>
-          <li>Power Query for data preparation.</li>
-        </ul>
-      </p>
+    <div class="card flex">
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/4">
+        <h4 class="project-title item">MedEase - E-Commerce Platform</h4>
+        <p class="font-work_sans pr-12 text-justify">
+            An e-commerce project built using ASP.Net Core Web API, React JS, and SQL Server. The project features user, admin, and staff modules with robust authentication and CRUD operations. It also includes REST API development and Postman integration.
+            <br /><br /><strong>Technologies Used:</strong>
+            <ul class="list-disc pl-6">
+                <li>ASP.Net Core Web API (.NET Core 6) for backend.</li>
+                <li>React JS for frontend development.</li>
+                <li>SQL Server with Entity Framework Core for database operations.</li>
+                <li>Postman for API testing and documentation.</li>
+            </ul>
+        </p>
+        <a href="https://github.com/SanjayKMangrani/MedEase.git" target="_blank">
+            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
+                View GitHub Code
+            </button>
+        </a>
     </div>
-    <div class="card-images-container flex flex-col space-y-4 bg-green-100 p-4">
-      <a href="./assets/sales-overview.png" target="_blank" class="block w-full">
-        <img class="w-full h-auto object-cover" src="./assets/sales-overview.png" alt="Sales Overview Dashboard" />
-      </a>
-      <a href="./assets/customer-details.png" target="_blank" class="block w-full">
-        <img class="w-full h-auto object-cover" src="./assets/customer-details.png" alt="Customer Details Dashboard" />
-      </a>
-      <a href="./assets/product-details.png" target="_blank" class="block w-full">
-        <img class="w-full h-auto object-cover" src="./assets/product-details.png" alt="Product Details Dashboard" />
-      </a>
+    
+    <div class="card-images-container flex flex-col space-y-4 bg-white-100 p-4 md:w-2/4">
+        <!-- First Image -->
+        <a href="./assets/M_login.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets//M_login.png" alt="MedEase Interface Screenshot 1" />
+        </a>
+        
+        <a href="./assets/M_management.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets/M_management.png" alt="MedEase Interface Screenshot 2" />
+        </a>
     </div>
-  </div>
+</div>
 
     <div class="card">
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
