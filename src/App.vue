@@ -58,19 +58,21 @@
     <h3 class="heading3 my-5">My Recent Work</h3>
 
     <div class="card flex">
+    <!-- Project Description Section -->
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/4">
-        <h4 class="project-title item">MedEase - E-Commerce Platform</h4>
+        <h4 class="project-title item">Recipe Sharing - Full Stack Web Application</h4>
         <p class="font-work_sans pr-12 text-justify">
-            An e-commerce project built using ASP.Net Core Web API, React JS, and SQL Server. The project features user, admin, and staff modules with robust authentication and CRUD operations. It also includes REST API development and Postman integration.
+            A full-stack recipe-sharing web application built using ASP.Net Core Web API, React JS, and SQL Server. Users can register, log in, and share their favorite recipes. The project includes user authentication, recipe creation, and recipe viewing functionality, all managed through a RESTful API and a modern frontend built with React JS.
             <br /><br /><strong>Technologies Used:</strong>
             <ul class="list-disc pl-6">
-                <li>ASP.Net Core Web API (.NET Core 6) for backend.</li>
-                <li>React JS for frontend development.</li>
-                <li>SQL Server with Entity Framework Core for database operations.</li>
+                <li>ASP.Net Core Web API for backend development.</li>
+                <li>React JS for building a responsive and interactive frontend.</li>
+                <li>SQL Server with Entity Framework Core for database management and operations.</li>
+                <li>JWT for secure user authentication and session management.</li>
                 <li>Postman for API testing and documentation.</li>
             </ul>
         </p>
-        <a href="https://github.com/SanjayKMangrani/MedEase_API" target="_blank">
+        <a href="https://github.com/SanjayKMangrani/RecipeSharingProject" target="_blank">
             <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
                 View GitHub Code
             </button>
@@ -79,40 +81,16 @@
     
     <div class="card-images-container flex flex-col space-y-4 bg-white-100 p-4 md:w-2/4">
         <!-- First Image -->
-        <a href="./assets/M_login.png" target="_blank" class="block w-full">
-            <img class="w-full h-auto object-cover" src="./assets//M_login.png" alt="MedEase Interface Screenshot 1" />
+        <a href="./assets/Login.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets/Login.png" alt="Recipe Sharing Login" />
         </a>
         
-        <a href="./assets/M_management.png" target="_blank" class="block w-full">
-            <img class="w-full h-auto object-cover" src="./assets/M_management.png" alt="MedEase Interface Screenshot 2" />
+        <!-- Second Image -->
+        <a href="./assets/RecipeSharing.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets/RecipeSharing.png" alt="Recipe Sharing Recipe" />
         </a>
     </div>
 </div>
-
-    <div class="card">
-    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">Biological Gene Expression Data Visualization</h4>
-        <p class="font-work_sans pr-12 text-justify">
-            Developed a tool for visualizing gene expression data using Python. The project analyzes large-scale gene expression datasets and produces visual representations such as heatmaps, PCA plots, and clustering graphs to reveal patterns in the data. These visualizations help researchers interpret biological significance in gene expression experiments.
-            <br /><br /><strong>Technologies Used:</strong>
-            <ul class="list-disc pl-6">
-                <li>Python for backend data processing.</li>
-                <li>Pandas and NumPy for data manipulation.</li>
-                <li>Seaborn and Matplotlib for creating visualizations.</li>
-                <li>Scikit-learn for performing PCA and clustering.</li>
-            </ul>
-        </p>
-        <a href="https://github.com/SanjayKMangrani/BGEDV.git" target="_blank">
-            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                View GitHub Code
-            </button>
-        </a>
-    </div>
-    <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/PyProject.png      " target="_blank" class="card-image bg-green-100 block" onclick="return !window.open(this.href, 'Image', 'width=800,height=600')">
-        <img class="w-full h-72 md:h-96 object-cover" src="./assets/PyProject.png" />
-    </a>
-</div>
-
 
     <div class="card">
         <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
