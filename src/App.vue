@@ -217,25 +217,6 @@
     </div>
 </div>
 
-<div class="banner-2 md:flex items-center md:justify-evenly" id="about">
-    <img class="md:h-[500px] h-[400px]" src="./assets/about.png" alt="user image" />
-    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">Web Developer</h4>
-        <p class="font-work_sans text-justify">
-            My name is Sanjay Kumar. I am a highly skilled Web Developer with two years of hands-on experience at BASF Asia-Pacific Service Centre Malaysia.
-            <br />
-            I hold a Master's degree in Computer Science from Staffordshire University, and I completed my Bachelor's degree in Computer Science at Asia Pacific University of Technology and Innovation Malaysia (APU / APIIT).
-            <br />
-            During my professional journey, I've spearheaded coding, design, and implementation of in-house web application, collaborated with cross-functional teams, and contributed to various projects, including the development of the MY Desk KL App and the APTC Trade Portal.
-        </p>
-        <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/Resume.pdf" download="Sanjay_Kumar_Resume.pdf" target="_blank" rel="noopener noreferrer">
-            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                Download Resume
-            </button>
-        </a>
-    </div>
-</div>
-
 <div class="banner-1 flex h-full items-center" id="contact">
     <div class="w-7/12 p-12">
         <h2 class="text-gray-700 md:text-6xl text-2xl font-Eczar mb-5 font-bold">
