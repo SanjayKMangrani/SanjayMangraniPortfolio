@@ -58,6 +58,68 @@
     <h3 class="heading3 my-5">My Recent Work</h3>
 
     <div class="card flex">
+    <!-- Emotion Detection Project -->
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/4">
+        <h4 class="project-title item">Emotion Detection Application</h4>
+        <p class="font-work_sans pr-12 text-justify">
+            An advanced emotion detection application using Watson NLP, extracting emotions like joy, sadness, and anger. Deployed as a web service using Flask.
+            <br /><br /><strong>Technologies Used:</strong>
+            <ul class="list-disc pl-6">
+                <li>Watson NLP for emotion detection.</li>
+                <li>Flask for web deployment.</li>
+                <li>Python for backend logic.</li>
+                <li>Static code analysis for PEP8 compliance.</li>
+            </ul>
+        </p>
+        <a href="https://github.com/SanjayKMangrani/EmotionDetection.git" target="_blank">
+            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
+                View GitHub Code
+            </button>
+        </a>
+    </div>
+    
+    <div class="card-images-container flex flex-col space-y-4 bg-white-100 p-4 md:w-2/4">
+        <a href="./assets/ED1.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets/ED1.png" alt="Emotion Detection Screenshot 1" />
+        </a>
+        <a href="./assets/ED2.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets/ED2.png" alt="Emotion Detection Screenshot 2" />
+        </a>
+    </div>
+</div>
+
+    <div class="card flex">
+    <!-- Sentiment Analysis Project -->
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/4">
+        <h4 class="project-title item">Sentiment Analysis Application</h4>
+        <p class="font-work_sans pr-12 text-justify">
+            A sentiment analysis application using Watson NLP embedded libraries and Flask. The project extracts relevant information from Watson's responses and deploys it as a web application.
+            <br /><br /><strong>Technologies Used:</strong>
+            <ul class="list-disc pl-6">
+                <li>Watson NLP for sentiment analysis.</li>
+                <li>Flask for web deployment.</li>
+                <li>Python for application logic.</li>
+                <li>Unit testing for validation.</li>
+            </ul>
+        </p>
+        <a href="https://github.com/SanjayKMangrani/SentimentAnalysis.git" target="_blank">
+            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
+                View GitHub Code
+            </button>
+        </a>
+    </div>
+    
+    <div class="card-images-container flex flex-col space-y-4 bg-white-100 p-4 md:w-2/4">
+        <a href="./assets/NLP1.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets/NLP1.png" alt="Sentiment Analysis Screenshot 1" />
+        </a>
+        <a href="./assets/NLP2.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets/NLP2.png" alt="Sentiment Analysis Screenshot 2" />
+        </a>
+    </div>
+</div>
+
+    <div class="card flex">
     <!-- Project Description Section -->
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/4">
         <h4 class="project-title item">Recipe Sharing - Full Stack Web Application</h4>
@@ -94,27 +156,6 @@
 
     <div class="card">
         <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-            <h4 class="project-title item">Book Shopping Cart MVC</h4>
-            <p class="font-work_sans pr-12 text-justify">
-                Developed a basic e-commerce system using ASP.NET Core MVC. The system includes features like search filter functionalities, add to cart, payment processing, user roles, and user authentication. Utilized MS SQL as the database with Entity Framework Core for ORM. The frontend is designed using Bootstrap.
-                <br /><br /><strong>Technologies Used:</strong>
-                <ul class="list-disc pl-6">
-                    <li>ASP.NET Core MVC for the backend.</li>
-                    <li>MS SQL for the database.</li>
-                    <li>Entity Framework Core for ORM.</li>
-                    <li>Bootstrap for the frontend.</li>
-                </ul>
-            </p>
-            <a href="https://github.com/SanjayKMangrani/BookShoppingCartMvc.git" target="_blank"> <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                    View GitHub Code
-                </button></a>
-        </div>
-        <a href="https://github.com/SanjayKMangrani/SanjayMangraniPortfolio/blob/main/src/assets/BookShoppingCartMvc.png" target="_blank" class="card-image bg-green-100 block" onclick="return !window.open(this.href, 'Image', 'width=800,height=600')">
-        <img class="w-full h-72 md:h-96 object-cover" src="./assets/BookShoppingCartMvc.png" />
-    </a>
-    </div>
-    <div class="card">
-        <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
             <h4 class="project-title item">Vue Task Tracker</h4>
             <p class="font-work_sans pr-12 text-justify">
                 Developed a Task Management System with a Vue.js frontend and ASP.NET Core backend. The system allows users to manage tasks, view details, and perform CRUD operations. Implemented features include task listing, details, due dates, and status updates.
@@ -140,41 +181,32 @@
             <img class="w-full h-72 md:h-96" src="./assets/TaskProject.png" alt="Project Image">
         </div>
     </div>
-    <div class="card">
-        <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-            <h4 class="project-title item">Restaurant Management System</h4>
-            <p class="font-work_sans pr-12 text-justify">
-                Developed a simple Vue.js project for managing restaurant details, including the ability to add,
-                update, and delete entries. The application utilizes Vue.js for the front-end and leverages API functionality with a JSON file as the data store.
-                <br /><br /><strong>Technologies Used:</strong>
-                <ul class="list-disc pl-6">
-                    <li>Vue.js for the frontend.</li>
-                    <li>JSON file for data storage.</li>
-                    <li>Implementation of user authentication for secure access.</li>
-                </ul>
-            </p>
-            <a href="https://github.com/SanjayKMangrani/RMS" target="_blank"> <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                    View GitHub Code
-                </button></a>
-        </div>
-        <div class="card-image bg-green-100">
-            <img class="w-full h-72 md:h-96" src="./assets/VueProject.png" />
-        </div>
-    </div>
 </div>
+
 <div class="banner-1" id="employment-history">
     <div class="space-y-4 grid place-items-center mt-5">
         <h3 class="heading3">Employment History</h3>
     </div>
     <div class="max-w-6xl mx-auto px-8 py-16">
-        <div class="flex flex-col md:flex-row space-y-6 md:space-y-0">
-            <div class="md:w-5/12 lg:h-auto relative">
-                <img class="absolute h-full w-full object-cover" src="https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png" alt="" />
+        <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
+            <!-- Adwani Motors Limited -->
+            <div class="flex flex-col md:flex-1 bg-white p-8 rounded-lg shadow-md">
+                <h4 class="font-bold text-2xl mb-4">Junior Web Developer (Part-Time), Adwani Motors Limited</h4>
+                <p class="mb-4">Dec. 2023 – Dec. 2024, Middlesbrough, UK</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Developed an AI-driven chatbot to assist customers in finding products and answering queries, enhancing user interaction.</li>
+                    <li>Integrated a machine learning-based recommendation system to suggest relevant vehicle options based on browsing behavior.</li>
+                    <li>Implemented sentiment and emotion analysis features to enhance customer insights and feedback mechanisms.</li>
+                    <li>Assisted in SQL Server database management, ensuring data integrity for AI-driven insights.</li>
+                    <li>Participated in Agile development, contributing to sprint planning and collaborative development processes.</li>
+                </ul>
             </div>
-            <div class="md:w-7/12 bg-white py-12 lg:py-24 px-8 lg:px-16 text-gray-700 leading-relaxed relative">
+            
+            <!-- BASF Asia-Pacific -->
+            <div class="flex flex-col md:flex-1 bg-white p-8 rounded-lg shadow-md">
                 <h4 class="font-bold text-2xl mb-4">Web Developer, BASF Asia-Pacific Service Centre Sdn Bhd</h4>
-                <p class="mb-4">March. 2020 – Dec. 2021, Kuala Lumpur, Malaysia</p>
-                <ul class="list-disc pl-6">
+                <p class="mb-4">March 2020 – Dec. 2021, Kuala Lumpur, Malaysia</p>
+                <ul class="list-disc pl-6 space-y-2">
                     <li>Spearheaded coding, design, and implementation of in-house web and mobile portals, driving enhanced user experiences and streamlined processes.</li>
                     <li>Collaborated with cross-functional teams to gather and understand end-user requirements, translating them into functional and technical specifications.</li>
                     <li>Designed the MY Desk KL App, enabling employees to reserve seats for office use during the pandemic. Implemented features like seat allocation optimization, email notifications, and administrative controls.</li>
@@ -182,8 +214,6 @@
                 </ul>
             </div>
         </div>
-
-        <!-- More employment history sections as needed -->
     </div>
 </div>
 
