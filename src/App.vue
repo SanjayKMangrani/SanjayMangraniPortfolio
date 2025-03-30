@@ -58,6 +58,35 @@
     <h3 class="heading3 my-5">My Recent Work</h3>
 
     <div class="card flex">
+    <!-- LLM Chatbot Project -->
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/4">
+        <h4 class="project-title item">LLM Chatbot Application</h4>
+        <p class="font-work_sans pr-12 text-justify">
+            A conversational AI chatbot leveraging IBM Watson and Hugging Face models for intelligent dialogue. Deployed as a web service using Flask, integrating a Vue.js frontend.
+            <br /><br /><strong>Technologies Used:</strong>
+            <ul class="list-disc pl-6">
+                <li>IBM Watson and Hugging Face for LLM-based chatbot responses.</li>
+                <li>Flask for backend server deployment.</li>
+                <li>Vue.js for interactive frontend UI.</li>
+                <li>REST API integration for chatbot communication.</li>
+            </ul>
+        </p>
+        <a href="https://github.com/SanjayKMangrani/LLM_Chatbot.git" target="_blank">
+            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
+                View GitHub Code
+            </button>
+        </a>
+    </div>
+
+    <!-- Chatbot Output Images -->
+    <div class="card-images-container flex flex-col space-y-4 bg-white-100 p-4 md:w-2/4">
+        <a href="chatBot.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover" src="./assets/chatBot.png" alt="LLM Chatbot Screenshot 1" />
+        </a>
+    </div>
+</div>
+
+    <div class="card flex">
     <!-- Emotion Detection Project -->
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/4">
         <h4 class="project-title item">Emotion Detection Application</h4>
