@@ -58,6 +58,42 @@
     <h3 class="heading3 my-5">My Recent Work</h3>
 
     <div class="card flex">
+    <!-- PhoneGradeAI Project -->
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-3/5">
+        <h4 class="project-title item">PhoneGradeAI - Mobile Screen Condition Classifier</h4>
+        <p class="font-work_sans pr-12 text-justify">
+            A deep learning-powered application that classifies mobile phone screen conditions as either cracked or intact. Designed for integration into automated inspection systems, such as refurbishment lines or resale evaluation tools.
+            <br /><br /><strong>Technologies Used:</strong>
+            <ul class="list-disc pl-6">
+                <li>TensorFlow + Keras for training a binary image classifier (CNN).</li>
+                <li>Flask for backend API handling predictions.</li>
+                <li>Streamlit for a simple, interactive user interface.</li>
+            </ul>
+            <br />
+            <strong>Real-World Use Case:</strong> Can be installed in inspection pipelines using camera sensors on conveyor belts to identify damaged phone screens in real time.
+        </p>
+        <div class="flex gap-4 pt-2">
+            <a href="https://github.com/SanjayKMangrani/PhoneGradeAI" target="_blank">
+                <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-700">
+                    GitHub Code
+                </button>
+            </a>
+            <a href="https://phonegrade-frontend-production.up.railway.app/" target="_blank">
+                <button class="bg-sky-600 text-white px-5 py-2 rounded hover:bg-sky-500">
+                    Live Demo
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <div class="card-images-container bg-white-100 p-4 md:w-2/5 flex items-center justify-center">
+        <a href="./assets/PhoneGradAi.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover rounded shadow-md" src="./assets/PhoneGradAi.png" alt="PhoneGradeAI Screenshot" />
+        </a>
+    </div>
+</div>
+    
+    <div class="card flex">
     <!-- PDF Chatbot Project -->
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-2/4">
       <h4 class="project-title item">PDF Chatbot Application</h4>
@@ -71,9 +107,9 @@
           <li>REST API for communication between frontend and backend.</li>
         </ul>
       </p>
-      <a href="https://github.com/SanjayKMangrani/PdfChatbot" target="_blank">
-        <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-          View GitHub Code
+      <a href="https://github.com/SanjayKMangrani/PdfChatbot" target="_blank" class="mt-6 inline-block">
+        <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-700">
+            GitHub Code
         </button>
       </a>
     </div>
@@ -99,9 +135,9 @@
                 <li>REST API integration for chatbot communication.</li>
             </ul>
         </p>
-        <a href="https://github.com/SanjayKMangrani/LLM_Chatbot.git" target="_blank">
-            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                View GitHub Code
+        <a href="https://github.com/SanjayKMangrani/LLM_Chatbot.git" target="_blank" class="mt-6 inline-block">
+            <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-700">
+                GitHub Code
             </button>
         </a>
     </div>
@@ -128,9 +164,9 @@
                 <li>Static code analysis for PEP8 compliance.</li>
             </ul>
         </p>
-        <a href="https://github.com/SanjayKMangrani/EmotionDetection.git" target="_blank">
-            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                View GitHub Code
+        <a href="https://github.com/SanjayKMangrani/EmotionDetection.git" target="_blank" class="mt-6 inline-block">
+            <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-700">
+                GitHub Code
             </button>
         </a>
     </div>
@@ -159,9 +195,9 @@
                 <li>Unit testing for validation.</li>
             </ul>
         </p>
-        <a href="https://github.com/SanjayKMangrani/SentimentAnalysis.git" target="_blank">
-            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                View GitHub Code
+        <a href="https://github.com/SanjayKMangrani/SentimentAnalysis.git" target="_blank" class="mt-6 inline-block">
+            <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-700">
+                GitHub Code
             </button>
         </a>
     </div>
@@ -191,9 +227,9 @@
                 <li>Postman for API testing and documentation.</li>
             </ul>
         </p>
-        <a href="https://github.com/SanjayKMangrani/RecipeSharingProject" target="_blank">
-            <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                View GitHub Code
+        <a href="https://github.com/SanjayKMangrani/RecipeSharingProject" target="_blank" class="mt-6 inline-block">
+            <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-700">
+                GitHub Code
             </button>
         </a>
     </div>
@@ -230,8 +266,8 @@
                     <li>Database integration for storing task information.</li>
                 </ul>
             </p>
-            <a href="https://github.com/SanjayKMangrani/VueTaskTracker/blob/main/README.md" target="_blank"> <button class="text-sky-800 font-bold text-2xl tracking-wider hover:underline">
-                    View GitHub Code
+            <a href="https://github.com/SanjayKMangrani/VueTaskTracker/blob/main/README.md" target="_blank" class="mt-6 inline-block"> <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-700">
+                    GitHub Code
                 </button></a>
         </div>
         <div class="card-image bg-green-100">
