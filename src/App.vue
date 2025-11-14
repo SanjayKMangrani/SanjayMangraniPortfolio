@@ -285,7 +285,7 @@
             <!-- Adwani Motors Limited -->
             <div class="flex flex-col md:flex-1 bg-white p-8 rounded-lg shadow-md">
                 <h4 class="font-bold text-2xl mb-4">Junior Web Developer (Part-Time), Adwani Motors Limited</h4>
-                <p class="mb-4">Dec. 2023 – Feb. 2025, Middlesbrough, UK</p>
+                <p class="mb-4">Dec. 2023 – Present, Middlesbrough, UK</p>
                 <ul class="list-disc pl-6 space-y-2">
                     <li>Developed an AI-driven chatbot to assist customers in finding products and answering queries, enhancing user interaction.</li>
                     <li>Integrated a machine learning-based recommendation system to suggest relevant vehicle options based on browsing behavior.</li>
