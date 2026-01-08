@@ -56,6 +56,43 @@
 
 <div class="banner-2 space-y-10 pb-20" id="work">
     <h3 class="heading3 my-5">My Recent Work</h3>
+<div class="card flex">
+    <!-- AI Retail Forecasting Dashboard Project -->
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-3/5">
+        <h4 class="project-title item">AI Retail Forecasting Dashboard</h4>
+        <p class="font-work_sans pr-12 text-justify">
+            A full-stack machine learning dashboard that forecasts next-day retail sales and flags potential low-sales-risk days from raw Excel datasets. Designed for business teams to monitor sales trends and improve decision-making.
+            <br /><br /><strong>Technologies Used:</strong>
+            <ul class="list-disc pl-6">
+                <li>Pandas + scikit-learn for time-based feature engineering and ML pipelines.</li>
+                <li>Flask for serving the dashboard as a web app.</li>
+                <li>HTML/CSS (Jinja templates) for the frontend.</li>
+            </ul>
+            <br />
+            <strong>Real-World Use Case:</strong> Retail managers or analysts can upload raw Excel sales files and instantly view predictive insights for planning promotions, inventory, or staffing.
+        </p>
+        <div class="flex gap-4 pt-2">
+            <a href=" https://github.com/SanjayKMangrani/ai-retail-dashboard" target="_blank">
+                <button class="bg-gray-800 text-white px-5 py-2 rounded hover:bg-gray-700">
+                    GitHub Code
+                </button>
+            </a>
+            <!-- Optional Live Demo button
+            <a href="https://your-live-demo-url.com/" target="_blank">
+                <button class="bg-sky-600 text-white px-5 py-2 rounded hover:bg-sky-500">
+                    Live Demo
+                </button>
+            </a>
+            -->
+        </div>
+    </div>
+
+    <div class="card-images-container bg-white-100 p-4 md:w-2/5 flex items-center justify-center">
+        <a href="./assets/RetailDashboard.png" target="_blank" class="block w-full">
+            <img class="w-full h-auto object-cover rounded shadow-md" src="./assets/RetailDashboard.png" alt="Retail Forecasting Screenshot" />
+        </a>
+    </div>
+</div>
 
     <div class="card flex">
     <!-- PhoneGradeAI Project -->
